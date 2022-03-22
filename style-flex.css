@@ -1,0 +1,38 @@
+.container{
+    width: 100%;
+    height: 600px;
+    background-color: salmon;
+    display: flex;
+    /* flex-wrap: wrap;
+    flex-direction:row ; */
+    flex-flow: row wrap;
+    /* justify-content: space-between;
+    align-items: center;
+    align-content: center; */
+
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+
+    gap: 20px 30px;
+
+}
+
+.item{
+    /* width: 100px;
+    height: 100px; */
+    background: aquamarine;
+    border: 1px solid purple;
+    padding: 10px;
+     /* flex-basis: 100px; 
+    flex-grow: 1; */
+
+    flex: 0 0 10%;
+
+
+}
+
+.item2{
+    /* flex-grow: 2; */
+    flex-shrink: 1;
+}

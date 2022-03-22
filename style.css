@@ -1,0 +1,21 @@
+.container{
+    width: 500px;
+    height: 500px;
+    background: salmon;
+    border: 1px solid purple;
+}
+
+[class^=item]{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    border: inherit;
+    box-sizing: border-box;
+    font-weight: bold;
+}
+/* 
+.item2{
+    display: block;
+
+    visibility: hidden;
+} */

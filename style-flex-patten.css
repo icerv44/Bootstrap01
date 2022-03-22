@@ -1,0 +1,32 @@
+/* .content-sidebar{
+    display: flex;
+    background: salmon;
+    flex-wrap: wrap;
+}
+
+.left{
+    
+    flex: 1 1 70%;
+    min-width: 300px;
+    height: 400px;
+    background-color: aqua;
+
+}
+
+.right{
+
+    flex: 1 1 30%;
+    min-width: 100px;
+    height: 400px;
+    background: lime;
+} */
+
+
+
+
+.left{
+    background-color: salmon;
+    min-width: 200px;
+    width: 50%;
+    height: 400px;
+}
